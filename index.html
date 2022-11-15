@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!-- embedded or internal css -->
+    <style>
+
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <div class="parent">
+        Lorem ipsum dolor sit amet <span class="child">Highlighted content</span> consectetur
+        adipisicing elit. Expedita molestiae natus suscipit eveniet? Officiis, architecto exercitationem optio aperiam
+        <p>nostrum esse tempora, maxime et <span>Span inside P</span> sit sed, sint vero perspiciatis.</p><span>Sibling of P</span>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, beatae!
+    </div>
+    <div>
+        para2
+    </div>
+    <p>Lorem </p>
+    <!-- how em unit works -->
+    <div style="font-size: 32px">
+
+        <h1>heading1</h1>
+    </div>
+    <h2>heading2</h2>
+    <h3>heading3</h3>
+    <h4>heading4</h4>
+    <h5>heading5</h5>
+    <h6>heading6</h6>
+
+
+    <div>
+        <a href="https://reactjs.org/" target="_blank">
+            <img height="100px" src="https://reactjs.org/logo-og.png" alt="React Logo">
+        </a>
+        <a href="https://reactjs.org/" target="_blank">
+            Some text
+        </a>
+
+    </div>
+
+
+    <!-- basic input tags -->
+
+    <form>
+        <label for="name">Name - </label>
+        <input id="name" placeholder="Enter your Name" maxlength="10" pattern="^[A-Z][a-z]{3,}$">
+        <div>
+            <label for="age">Age</label>
+            <input id="age" placeholder="Age" type="number" min="18" max="60">
+            </div>
+
+            <label for="student">Student</label>
+            <input  type="radio" name="status" id="student" value="Student">
+            <label for="wp">Working Profesional</label>
+            <input type="radio" name="status" id="wp" value="Working Profesional">
+
+            <label for="wp">Area of expertise</label>
+            <label for="wp">Web</label>
+
+            <input type="checkbox" name="" id="">
+            <input type="checkbox" name="" id="">
+            <input type="email" name="" id="">
+
+            <input style="" class="password" type="password" placeholder="Enter your password">
+            <select name="" id="">
+                <option value="" disabled selected>Select an option</option>
+                <option value="">option1</option>
+                <option value="">option2</option>
+                <option value="">option3</option>
+                <option value="">option4</option>
+                <option value="">option5</option>
+            </select>
+
+
+            <ol>
+                <li id="item1">list-item1</li>
+                <li id="item2">list-item2</li>
+                <li id="item3">list-item3</li>
+                <li id="item4">list-item4</li>
+                <li id="item5">list-item5</li>
+                <li id="item6">list-item6</li>
+                <li id="item7">list-item7</li>
+                <li id="item8">list-item8</li>
+                <li id="item9">list-item9</li>
+                <li id="item10">list-item10</li>
+            </ol>
+    </form>
+
+    <iframe  height="auto" width="auto" src="https://www.wikipedia.org/" frameborder="0"></iframe>
+    <details>
+        <summary class="GFG">GeeksforGeeks</summary>
+         
+<p>GeeksforGeeks is a Computer Science portal
+           where you can learn good programming.
+        </p>
+
+     </details>
+
+     <table>
+        <thead>
+            <th>Name</th>
+            <th>designation</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>abc</td>
+                <td>Engg</td>
+            </tr>
+            <tr>
+                <td>def</td>
+                <td>Engg</td>
+            </tr>
+            <tr>
+                <td colspan="2">large text data</td>
+            </tr>
+        </tbody>
+     </table>
+
+     <button id="btn">show name</button>
+</body>
+<script src="script.js"></script>
+</html>

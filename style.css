@@ -1,0 +1,57 @@
+input.password{
+    padding: 5px;
+    border: 1px solid aqua;
+    margin: 5px;
+}
+
+input[type="password"]{
+    padding: 10px;
+    border: 2px solid;
+    margin: 10px;
+}
+
+
+#age{
+    background-color: aqua;
+}
+
+input{
+    background-color: red !important;
+}
+
+div span{
+    background-color: aqua
+}
+
+div > span{
+    background-color: green
+}
+
+p+span{
+    background-color: yellow;
+}
+
+p::first-letter{
+    font-size: 2rem;
+}
+
+input:focus{
+    background-color: aqua ;
+}
+
+ol>li:nth-child(odd){
+    background-color: yellow;
+}
+
+/* p span{
+    background-color: aqua
+} */
+
+
+/* .parent .child{
+    background-color: aqua
+} */
+
+/* 9 - 10px */
+
+/* 6 - 5px */
