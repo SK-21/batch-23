@@ -1,0 +1,29 @@
+.user{
+    min-width: 300px;
+    max-width: 320px;
+}
+
+.card{
+    box-shadow: grey 5px 5px 10px 2px;
+}
+
+
+@media only screen and (min-width:1250px) {
+    .user{
+        max-width: 400px ;
+        background-color: aqua;
+    }
+}
+
+@media only screen and (min-width:1160px) and (max-width:1249px) {
+    .user{
+        max-width: 370px ;
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width:990px) {
+    .user{
+        max-width: 350px ;
+    }
+}

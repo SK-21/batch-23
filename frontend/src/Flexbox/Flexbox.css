@@ -1,0 +1,23 @@
+.container{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* border: 1px solid black;
+    padding: 5px;
+    height: 90vh; */
+    /* justify-content: space-between; */
+}
+
+
+.flex-item{
+    height: 50px;
+    width: 50px;
+    border: 2px solid red;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* display: flex; */
+    /* margin: 1px; */
+}
+
+.flex-item:nth-child(even){
+    /* align-self: flex-end; */
+}
